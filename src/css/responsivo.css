@@ -1,0 +1,10 @@
+
+
+@media(max-width:955px){
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
