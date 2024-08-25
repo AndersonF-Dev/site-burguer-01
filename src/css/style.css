@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     width: auto;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
@@ -17,6 +18,11 @@
     --fonte-menu: "Roboto Slab", serif;
     --fonte-menu2: "Poppins", sans-serif;
     --fonte-conteodo: "A Love of Thunder";
+}
+
+body {
+    width: auto;
+    height: 100vh;
 }
 
 div {
@@ -196,4 +202,36 @@ div {
     color: #ffffff;
     text-align: center;
     margin-top: 8px;
+}
+
+/* .conteiner-foto {
+    display: flex;
+    max-width: 100%;
+    height: 600px;
+    
+} */
+.foto-burge {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    height: auto;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.img1 {
+    width: 308px;
+    height: 380px;
+}
+
+.img2 {
+    width: 308px;
+    height: 380px;
+}
+
+.img3 {
+    width: 360px;
+    height: 468px;
 }
