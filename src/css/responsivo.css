@@ -3,6 +3,7 @@
 @media(max-width:955px){
     .conteudo{
         display: flex;
+        
         flex-direction: column;
         margin: auto;
         margin-top: 50px;
@@ -18,8 +19,9 @@
 }
 
 @media(max-width:955px){
-    .foto-burge  {
-        border-color: 5px solid #eb1d1d;
+    .conteiner-foto  {
+        background-color: #eb1d1d;
+        min-height: 2000px;
         display: flex;
         flex-direction: column;
         margin: auto;
