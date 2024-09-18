@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: var(--cor-menu);
+    font-family: var(--fonte-menu2);
+}
+.logo {
+    display: flex;
+    height: 66px;
+    margin-left: 100px;
+}
+
+.menu {
+    list-style: none;
+    font-family: var(--fonte-menu2);
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 100px;
+}
+
+.menu a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #ffffff;;
+    /* border-radius: 0.5rem; */
+}
+
+.menu a:hover {
+    color: #b3b3b3;
+}
