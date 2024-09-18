@@ -8,7 +8,7 @@ Este projeto foi feito para praticar o que foi aprendido nas aulas de HTML & CSS
 ### Link
 
 
-- URL do site ativo: [link aqui](https://andersonf-dev.github.io/social-links-profile-main/)
+- URL do site ativo: [link aqui](https://andersonf-dev.github.io/site-burguer-01/)
 
 # Tecnolocias utilizadas
 - HTML
