@@ -1,32 +1,26 @@
 .header { grid-area: header; }
 .banner { grid-area: banner; }
-.sac { grid-area: sac; ;}
+.sac { grid-area: sac;}
 .conteiner-informacoes {grid-area: conteiner-informacoes;}
 .conteiner-foto {grid-area: conteiner-foto;}
+.footer-conteiner {grid-area: footer-conteiner;}
 
 
 .grid-container {
-    /* height: 100vh; */
     display: grid;
     grid-template-areas:
         'header header '
         'banner banner'
         'sac sac'
         'conteiner-informacoes conteiner-informacoes'
-        'conteiner-foto conteiner-foto';
-        /* 'video-destaque videos-sugeridos'; */
-    /* grid-template-columns: 1fr 270px; */
-    /* grid-template-rows: 70px 1fr;    */
-    /* gap: 20px; */
-    background-color: #f7f7f7;
-    /* padding: 35PX; */
+        'conteiner-foto conteiner-foto'
+        'footer-conteiner footer-conteiner';
 }
 
 .banner {
     background-color: rgb(46, 83, 83);
     background-size: cover;
     width: auto;
-    /* height: 270px; */
 }
 
 .banner img {
@@ -41,7 +35,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: auto; */
     height: 120px;
     text-align: center
 }
@@ -81,7 +74,8 @@
 }
 
 .conteiner-informacoes {
-    background-color: #ffffff;
+    background-image: url(../img/Sem\ título-2.jpg);
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +87,6 @@
 }
 
 .unidades {
-    /* background-color: white; */
     width: 308px;
     height: 280px;
     margin-top: 40px;
@@ -151,7 +144,6 @@
 }
 
 .historia {
-    /* background-color: white; */
     width: 308px;
     height: 280px;
     margin-top: 40px;
@@ -208,7 +200,6 @@
 }
 
 .cardapio {
-    /* background-color: white; */
     width: 308px;
     height: 280px;
     margin-top: 40px;
@@ -264,42 +255,6 @@
 .butt-cadap  p:hover {
     background-color: var(--cor-butao-hover);
 }
-/*
-.conteiner-foto {
-    background-color: #882121;
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: ;
-   
-}
-
-.foto-burge {
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    width: 1000px;
-    margin-top: 40px;
-}
-
-.img1 {
-    display: flex;
-    width: 100%;
-    height: 380px;
-}
-
-.img2 {
-    display: flex;
-    width: 100%;
-    height: 380px;
-}
-
-.img3 {
-    display: flex;
-    width: 100%;
-    height: 380px;
-}*/
 
 .conteiner-foto {
     display: flex;
